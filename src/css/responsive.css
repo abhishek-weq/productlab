@@ -1,0 +1,241 @@
+@media only screen and (min-width: 1201px) and (max-width: 1400px){
+    .email-field{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .cta-inner .book-now-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cta-inner .form-submit-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .email-field{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .cta-inner{
+        flex-direction: column;
+    }
+
+    .cta-inner .book-now-wrap{
+        padding-right: 0 !important;
+        padding-bottom: 20px;
+        border-right: 0 !important;
+        border-bottom: 1px solid #CFA9F8;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cta-inner .form-submit-wrap{
+        padding-left: 0 !important;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .email-field{
+        width: 100% !important;
+    }
+
+    .email-submit-wrap{
+        align-items: center !important;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .email-field{
+        width: 300px !important;
+    }
+
+    .cta.submit{
+        left: 0 !important;
+    }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {}
+/* For ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .banner-content-wrap h1 {
+        font-size: 25px;}
+    .feature-inner-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 17px;
+    }
+    .accordion-module:after{
+        width: 100%;
+    }
+    .footer-main-wrap {
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+}
+/* For Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .banner-section {
+        grid-template-columns: 100%;
+    }
+    .banner-main-section {
+        max-width: 1200px;
+        width: 80%;
+        margin: auto;
+    }
+    .banner-content-wrap h1 {
+        font-size: 22px;
+        padding-right: 0;
+    }
+    .banner-content-wrap p {
+        width: 100%;
+    }
+    .banner-content-wrap {
+        width: 100%;
+        max-width: 100%;
+    }
+    .heading-common-wrap h2 {
+        font-size: 25px;}
+    .feature-inner-wrap {
+        grid-template-columns: 47% 47%;
+        grid-column-gap: 16px;
+    }
+    .footer-main-wrap , .credeit-bar-wrap{
+        grid-template-columns: 100%;
+    }
+    .reserved-text, .policy-page-wrap {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+    .credeit-bar-wrap a{
+        font-size: 14px;
+    }
+    .contact-module {
+        grid-template-columns: 100%; gap: 20px; }
+    .join-area, .contact-area{
+        padding: 20px;
+    }
+    .join-btns {
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+    form.contect-form{width: 100%;}
+    .accordion-module:after{
+        width: 100%;
+    }
+    .panel {
+        margin: 0 18px 0 40px;}
+    .testimonial-slider-content, .product-img-slide{
+        grid-template-columns: 100%;
+    }
+    p.testi-desc {
+        font-size: 16px;
+    }
+    .testimonial-details h4 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .testi-designation {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .testimonial-slider-content img {
+        width: 65%;
+    }
+    .case-studies-module{grid-template-columns: 100%;}
+    .case-studeies-content {
+        order: 2;
+        padding-top: 14px;
+    }
+    .case-studies-image {
+        order: 1;
+    }
+    .case-studeies-content .company-logo {
+        margin-bottom: 1rem;
+    }
+    .slick-vertical .slick-slide {
+        display: inline-block;
+        height: auto;
+        border: 1px solid transparent;
+    }
+    .navbar-brand {
+        width: 70%;
+    }
+    .cta-inner {
+        flex-direction: column;
+    }
+    .cta-inner .book-now-wrap, .cta-inner .form-submit-wrap{
+        flex-direction: column;
+        padding-left:0;
+        border-right:none;
+        text-align: center;
+    }
+    .cta-desc {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .cta-inner .book-now-wrap{
+        margin-bottom: 22px;
+    }
+    .cta {
+        padding: 10px 20px;
+    }
+    .book-now-wrap img , .form-submit-wrap img{
+        width: 50px;
+    }
+    .testimonial-slider, .testimonial-inner-data{
+        grid-template-columns: 100%;
+    }
+    .testimonial-inner-data .img-wrap img {
+        width: 60%;
+        margin: auto;
+    }
+    .product-img-slide .testimonial-slider-nav .thumb-slide.slick-current img {
+        border-left: none;
+    }
+    .product-img-slide .testimonial-slider {
+        padding: 15px;
+    }
+    .testimonial-slider{
+        padding: 15px;
+    }
+    .testimonial-inner-data .title{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .slider2-wrap .slick-active.slick-current .img-wrap img {
+        border-left: none;
+        border-bottom: 1px solid #7f20dc;
+        padding-bottom: 10px;
+    }
+    .accordion-module:after, form.contect-form{
+        width: 100% !important;
+    }
+    .faq-accordion-wrapper .accordion-title{
+        padding: 18px 18px 10px 30px;
+    }
+    .accordion-module:last-child::after{
+        background: none;
+        border: none;
+    }
+    .peopleContent .title {
+        font-size: 18px;
+    }
+    .call-button a.nav-link{
+        max-width: max-content;
+    }
+    button.submit-btn {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+}
